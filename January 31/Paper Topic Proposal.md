@@ -1,2 +1,1 @@
-### Topic:
-Morailty and Emotional Response in Robots
+### Topic: Morality and Emotions in Robots
