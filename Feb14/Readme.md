@@ -5,7 +5,7 @@ I tried to simulate the behavior of a mouse for my ecosystem project. A mouse te
 
 When the hunger level crosses 50 and mouse can smell the food outside, it leaves its safezone, eats the food, and immediately comes back. After eating, its hunger level goes down to 0. After mouse eats food, new food is generated at a random location after some random amount of time (this random time is constrained for the simulation between 20 and 30 seconds).
 
-My initial idea also included a cat in the picture. So, my next steps would be to introduce a cat which would move randomly around the canvas but won't be able to enter mouse's house. Then, mouse will leave for the food whenever the cat will be at safe distance from the food and the house. And when the cat sees the mouse, it will start to chase it down.
+My initial idea also included a cat in the picture. So, my next steps would be to introduce a cat which would move randomly around the canvas but won't be able to enter mouse's house. Then, mouse will leave for the food whenever the cat will be at safe distance from the food and the house. With increasing hunger levels, mouse will be more willing to risk its safety for food. And when the cat sees the mouse, it will start to chase it down.
 
 #### Video:
 Here is the [link](https://drive.google.com/file/d/1Ne4Jl0Os_4-xopicwibn6DvliwCR8nY0/view?usp=sharing) to the video of ecology:
