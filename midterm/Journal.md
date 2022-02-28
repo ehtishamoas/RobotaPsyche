@@ -6,4 +6,4 @@ When the hunger level crosses 50 and mouse can smell the food outside, it leaves
 #### Video:
 Here is the [link](https://drive.google.com/file/d/1Ne4Jl0Os_4-xopicwibn6DvliwCR8nY0/view?usp=sharing) to the video of current behaviors of a mouse.
 
-My next steps would be to introduce a cat which would move randomly around the canvas but won't be able to enter mouse's house. Then, mouse will leave for the food whenever the cat will be at safe distance from the food and the house. With increasing hunger levels, mouse will be more willing to risk its safety for food. And when the cat sees the mouse, it will start to chase it down.
+My next step would be to introduce a cat which would move randomly around the canvas but won't be able to enter mouse's house. Then, mouse will leave for the food whenever the cat will be at safe distance from the food and the house. With increasing hunger levels, mouse will be more willing to risk its safety for food. And when the cat sees the mouse, it will start to chase it down.
