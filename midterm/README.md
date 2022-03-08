@@ -1,7 +1,7 @@
 ## Miterm Project: Cat And Mice Ecosystem
 
 ### Description:
-For my midterm project, I have developed "cat and mice" ecolosystem simulation. The canvas depicts a room and a mice home.
+For my midterm project, I have developed "cat and mice" ecosystem simulation. The canvas depicts a room and a mice home.
 
 The cat roams freely and randomly within the room. When any mouse comes under its detection, it chases it and eats in upon catch. If it does not eat a mouse with a certain
 time period, it gets aggressive and starts to move and chase mice at faster speed. While it is aggressive, it also detects mice at a greater distance.
