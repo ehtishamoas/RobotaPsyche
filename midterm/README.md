@@ -14,7 +14,7 @@ When mice are outside their home seeking food, they either choose to go after an
 
 Food can be placed by the user with a mouse click anywhere inside the room. Use can also follow instructions in the code to uncomment a call to the function which automatically spawns food at a random location inside room after certain time. If no food is present in the room, mice do not leave their home.
 
-If mice house population becomes very high, very young and very old mice starts dying out of suffocation.
+If mice house population becomes very high (150), very young and very old mice starts dying out of suffocation.
 
 ### Process
 The random movement of cat inside the room is implemented using _flow field_ which employs _perlin noise_ for smooth movement. The flowfield directions change after certain amount of time or when cat is about to hit a wall.
@@ -26,13 +26,14 @@ The steering force to seek the food is also much higher than separation force, s
 
 When a mouse is running away from the cat, it separates from the cat at maximum speed in the opposite direction until its about to hit a wall. In that case, the mouse's desired velocity would be an average of separation from cat and wall which is slightly more skewed towards separating from wall (since exact average results in moving parallel to the wall). I could also have just used more steering force away from wall. But using the skewed average shows more interesting results as it seems like mouse is in absolute panic and is trying really hard to get away from cat from the sides.
 
-### video Link and Screenshots
+### Video Link
 
-Here is the [link](https://drive.google.com/file/d/1V88Bs1BZoxFa2pUDyfIYCe7y99-nEiUO/view?usp=sharing) to the video of ecology.
+Here is the [link](https://drive.google.com/file/d/1V88Bs1BZoxFa2pUDyfIYCe7y99-nEiUO/view?usp=sharing) to the video of ecosystem simulation.
 
+### Screenshots
 ![Screenshot1](https://github.com/ehtishamoas/RobotaPsyche/blob/main/midterm/Screenshot1.jpg)
 ![Screenshot2](https://github.com/ehtishamoas/RobotaPsyche/blob/main/midterm/Screenshot2.jpg)
 
-### Few interesting observations
+### Interesting Observations
 Sometimes when some mouse has gone far away from home and is stuck at wall corner and cat is chasing it to eat it, other mice from the home diverts cat's attention to them by coming out for food when cat starts chasing them instead of the mouse stuck at the corner. On the other hand, we can also think of it as other mice are using their friend's situation to sneak behind cat's back and get food for themselves.
 I found it very interesting that I did not code any of these behaviors but still I am drawing different conclusions from such observations.
