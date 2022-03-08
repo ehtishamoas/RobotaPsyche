@@ -1,7 +1,7 @@
 ## Miterm Project: Cat And Mice Ecosystem
 
 ### Description:
-For my midterm project, I have developed "cat and mice" ecosystem simulation. The canvas depicts a room and a mice home.
+For my midterm project, I have developed "cat and mice" ecosystem simulation. The canvas depicts a room and a mice home. In addition, it ahows a legend at the bottom of the screen which explains the meanings of different colors and shapes.
 
 The cat roams freely and randomly within the room. When any mouse comes under its detection, it chases it and eats in upon catch. If it does not eat a mouse with a certain
 time period, it gets aggressive and starts to move and chase mice at faster speed. While it is aggressive, it also detects mice at a greater distance.
@@ -12,7 +12,7 @@ While Mice are in the house, they roam at slow speeds at fair distance from one 
 
 When mice are outside their home seeking food, they either choose to go after another piece of food nearby or back to their home. If cat is closer to mice home than a mouse, then that mouse runs away from cat while satying inside the room rather than seeking its home.
 
-Food can be placed by the user with a mouse click anywhere inside the room. Use can also follow instructions in the code to uncomment a call to the function which automatically spawns food at a random location inside room after certain time. If no food is present in the room, mice do not leave their home.
+Food can be placed by the user with a mouse click anywhere inside the room. User can also follow instructions in the code to uncomment a call to the function which automatically spawns food at a random location inside room after certain time. If no food is present in the room, mice do not leave their home.
 
 If mice house population becomes very high (150), very young and very old mice starts dying out of suffocation.
 
