@@ -36,4 +36,7 @@ Here is the [link](https://drive.google.com/file/d/1V88Bs1BZoxFa2pUDyfIYCe7y99-n
 
 ### Interesting Observations
 Sometimes when some mouse has gone far away from home and is stuck at wall corner and cat is chasing it to eat it, other mice from the home diverts cat's attention to them by coming out for food when cat starts chasing them instead of the mouse stuck at the corner. On the other hand, we can also think of it as other mice are using their friend's situation to sneak behind cat's back and get food for themselves.
-I found it very interesting that I did not code any of these behaviors but still I am drawing different conclusions from such observations.
+
+Also, even when a mouse has eaten a piece of food and set its hunger back to zero, it goes after nearby pices food instead of going home if the cat is still at some safe distance from it than the food. So, going after the food pieces, sometime the mouse gets far away from home, significantly reducing its odds to run away from cat and be safe. This behavior closely resembles greed, which proves to be a curse!
+
+I found it very interesting that I did not code any of these behaviors but still am drawing conclusions from different observations.
