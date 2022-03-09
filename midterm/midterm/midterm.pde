@@ -1,3 +1,8 @@
+//Robota Psych - Midterm Project
+//Cat and Mice ecosystem simulation
+//By Ehtisham Ul Haq
+
+
 //---------------------------------------------------------------------------------//
 //Global variables
 //---------------------------------------------------------------------------------//
@@ -903,7 +908,7 @@ class Mouse {
           goHomeOrRun(); //When mouse is outside, it will decide whether to seek home or run away from the cat
         }
       } else if (hunger >= 50 && hunger < 80) {
-        if ((closestFoodDistance + 200 < distanceFromCat) || (distanceFromCat > 400)) {
+        if ((closestFoodDistance + 200 < distanceFromCat) || (distanceFromCat > 500)) {
           if (!seekingMate) {
             seekFood(closestFood);
           }
@@ -911,7 +916,7 @@ class Mouse {
           goHomeOrRun();
         }
       } else if (hunger >= 80) {
-        if ((closestFoodDistance + 100 < distanceFromCat) || (distanceFromCat > 500)) {
+        if ((closestFoodDistance + 100 < distanceFromCat) || (distanceFromCat > 400)) {
           if (!seekingMate) {
             seekFood(closestFood);
           }
