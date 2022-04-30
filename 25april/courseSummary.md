@@ -1,4 +1,4 @@
-### Course Summary
+# Course Summary
 Robota Psyche was the most thought-provoking and engaging course I have ever taken during my time at college. Both the technical and philosophical aspects of the 
 course gave me new perspectives on many topics related to robotics. 
 
